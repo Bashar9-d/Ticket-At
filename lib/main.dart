@@ -7,8 +7,8 @@ void main() async{
   WidgetsFlutterBinding.ensureInitialized();
 
   await Supabase.initialize(
-    url: 'https://oxxsnyhoocpvzebhjweb.supabase.co', // ضع رابط المشروع هنا
-    anonKey: 'sb_secret_ja54pKn7WD4Aog89sHlIrw_qi_8zqS0', // ضع المفتاح هنا
+    url: 'https://oxxsnyhoocpvzebhjweb.supabase.co',
+    anonKey: 'sb_secret_ja54pKn7WD4Aog89sHlIrw_qi_8zqS0',
   );
   runApp(const MyApp());
 }
